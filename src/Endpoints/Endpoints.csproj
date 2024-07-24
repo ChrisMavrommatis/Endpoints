@@ -16,6 +16,8 @@
 		<PackageLicenseFile>LICENSE</PackageLicenseFile>
 		<RootNamespace>ChrisMavrommatis.Endpoints</RootNamespace>
 		<RepositoryType>git</RepositoryType>
+		<Description>A .NET Package aimed to provide the Endpoint pattern in your projects.</Description>
+		<PackageTags>ASP.NET Core;API Design;Endpoints;Endpoint Pattern</PackageTags>
 	</PropertyGroup>
 
 	<ItemGroup>
