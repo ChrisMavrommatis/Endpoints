@@ -1,0 +1,36 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# 17
+VisualStudioVersion = 17.11.35111.106
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Endpoints", "src\Endpoints\Endpoints.csproj", "{5646692C-E3FF-4BA1-A4FD-E019662D470C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A57385B1-EC3C-428F-AC9E-38B0401A6F73}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_root", "_root", "{E45BE278-92ED-4360-A279-3217FF478E47}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5646692C-E3FF-4BA1-A4FD-E019662D470C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5646692C-E3FF-4BA1-A4FD-E019662D470C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5646692C-E3FF-4BA1-A4FD-E019662D470C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5646692C-E3FF-4BA1-A4FD-E019662D470C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5646692C-E3FF-4BA1-A4FD-E019662D470C} = {A57385B1-EC3C-428F-AC9E-38B0401A6F73}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4C48D656-4C28-4D24-AC23-48A0B448EEA4}
+	EndGlobalSection
+EndGlobal
