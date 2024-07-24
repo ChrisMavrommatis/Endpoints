@@ -10,7 +10,7 @@
 		<Authors>Chris Mavrommatis</Authors>
 		<PackageProjectUrl>https://github.com/ChrisMavrommatis/Endpoints</PackageProjectUrl>
 		<RepositoryUrl>https://github.com/ChrisMavrommatis/Endpoints</RepositoryUrl>
-		<Version>1.0.0</Version>
+		<Version>1.0.1</Version>
 		<AssemblyName>ChrisMavrommatis.Endpoints</AssemblyName>
 		<PackageReadmeFile>README.md</PackageReadmeFile>
 		<PackageLicenseFile>LICENSE</PackageLicenseFile>
