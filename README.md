@@ -1,6 +1,6 @@
 # Endpoints
 
-`ChrisMavrommatis.Endpoints` is a .NET Package aimed to provide the Endpoint pattern in your projects.
+`ChrisMavrommatis.Endpoints` is a .NET Package aimed to provide the Endpoint pattern in your projects while using classic Controllers behind the scenes.
 
 The project aims to provide with utilities that will make your API structure look like this
 ```yml
