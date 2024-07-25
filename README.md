@@ -35,9 +35,10 @@ The library masks the `ControllerBase` class in several layers ending up with th
 - `EndpointWithoutRequest`
 - `EndpointWithRequest<TRequest>`
 
-There is an additional option to define the namespace of the endpoint by using the `[Route]` attribute. 
+There is also an additional option to define the namespace of the endpoint by using the `[Route]` attribute. 
 The `[namespace]` placeholder will be replaced with the namespace of the endpoint.
 
+### Example Endpoints
 For example the `List.cs` file would look like this:
 ```csharp
 namespace MyProject.Endpoints.Users;
@@ -89,6 +90,7 @@ public class Create : EndpointWithRequest<CreateUserRequest>
 }
 ```
 
+### Namespace Route Token
 In order to use the Namespace route you need to use the `UseNamespaceRouteToken` extension method while adding controllers
 ```csharp
 builder.Services.AddControllers(options =>
@@ -105,8 +107,6 @@ builder.Services.AddSwaggerGen(options =>
 })
 ```
 
-
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
